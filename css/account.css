@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+button{
+	border-radius: 30px;
+	height: 40px;
+	width: 64px;
+}
+
+label{
+	font-weight:normal;
+}

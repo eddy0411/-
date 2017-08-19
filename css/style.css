@@ -7,3 +7,7 @@ button{
 	width: 100px;
 	background-color:
 }
+@font-face {
+  font-family: Gentium;
+  src: url(路徑);
+}
