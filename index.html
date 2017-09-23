@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>2012年8月30日
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -9,9 +9,13 @@
 </head>
 <body>
 <h1>阿翔記帳</h1>
-<button type="button" class="btn btn-warning">記帳</button>
-<button type="button" class="btn btn-warning">近十筆支出</button><br>
-<button type="button" class="btn btn-warning">過往支出</button>
-<button type="button" class="btn btn-warning">鼓勵程式</button>
+<button type="button" class="btn btn-warning" onclick="location.href='account.html'">記帳</button>
+<button type="button" class="btn btn-warning" onclick="location.href='data10.html'">近十筆支出</button><br>
+<p></p>
+<button type="button" class="btn btn-warning" id="calendar" onclick="location.href='inquire.html'">支出查詢</button>
+<button type="button" class="btn btn-warning" value="連結名稱" onclick="location.href='https://www.facebook.com/%E9%98%BF%E7%BF%94%E8%A8%98%E5%B8%B3-1942840549323439/'">鼓勵我們</button>
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="js/fdb-all.min.js"></script>
+<script type="text/javascript" src="js/inquire.js"></script>
 </body>
 </html>

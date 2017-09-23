@@ -1,0 +1,33 @@
+#Home{
+  font-family: CollectFolkSongs;  
+}
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	font-family: CollectFolkSongs;
+	font-weight:bold;
+
+}
+thead {
+	font-family: FineRound;
+	font-weight:bold;
+}
+tbody{
+	font-family: BambooWind;
+	font-weight:bold;
+}
+
+@font-face {
+  font-family: CollectFolkSongs;
+  src: url(../css/CollectFolkSongs.ttc);
+}
+@font-face {
+  font-family: FineRound;
+  src: url(../css/FineRound.TTC);
+}
+@font-face {
+  font-family: BambooWind;
+  src: url(../css/BambooWind.TTC);
+}

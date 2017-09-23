@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>2012年8月30日
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/account.css" />
@@ -22,9 +22,10 @@
 金額 : <input id="money" type="" name=""><br>
 付款方式 : <input id="Payment" type="" name=""><br>
  -->	
+<h1 type="button" class="btn btn-warning" value="連結名稱" onclick="location.href='index.html'" id="cancel">< 取消</h1><br>
 <label for="exampleInputEmail1">日期 :</label>
 <input type="date" class="form-control" id="date" name="">
-類別 : <select id="category">
+類別 : <select id="category" >
 <option value="">請選擇</option>
 <option value="eat">吃</option>
 <option value="play">玩</option>
@@ -32,8 +33,10 @@
 <option value="live">住</option>
 <option value="Parenting">行</option>
 <option value="traffic">育</option>
+<option value="others">其他</option>
+
 </select><br>
-<label for="exampleInputEmail1">項目 :</label>
+<label for="exampleInputEmail1">項目 :</label><br>
 <input class="form-control" id="project" name="">
 <label for="exampleInputEmail1">金額 :</label>
 <input class="form-control" id="money" name="">

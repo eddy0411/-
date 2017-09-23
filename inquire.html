@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/inquire.css" />
+		<title></title>
+	</head>
+	<body>
+		<h1 type="button" class="btn btn-warning" onclick="location.href='index.html'">< 首頁</h1>
+		<h1>支出查詢</h1>
+		<div>
+			<label ><input type="radio" name="method" value="curMonth">本月份</label><br>
+			<label ><input type="radio" name="method">指定日期</label>
+			<input type="date" class="" id="date" name=""> ~ <input type="date" class="" id="date" name="">
+		</div>
+		<button type="button" class="btn btn-warning" id="lookup">查詢</button>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>類別</th>
+					<th>金額</th>
+				</tr>
+			</table>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>日期</th>
+						<th>項目</th>
+						<th>類別</th>
+						<th>金額</th>
+						<th>付款方式</th>
+					</tr>
+				</thead>
+				<tbody id="accountingTable">
+					
+				</tbody>
+			</table>
+			<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+			<script type="text/javascript" src="js/fdb-all.min.js"></script>
+			<script type="text/javascript" src="js/inquire.js"></script>
+		</body>
+	</html>

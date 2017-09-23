@@ -1,0 +1,25 @@
+h1{
+	font-weight: bold;
+}
+body {
+    background-color: lightblue;
+    font-family: CollectFolkSongs;
+	font-weight: bold;
+
+}
+
+button{
+	border-radius: 30px;
+	height: 40px;
+	width: 64px;
+	font-weight: bold;
+}
+
+label{
+	font-weight:normal;
+}
+
+@font-face {
+  font-family: CollectFolkSongs;
+  src: url(../css/CollectFolkSongs.TTC);
+}
