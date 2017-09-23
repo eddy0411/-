@@ -1,0 +1,31 @@
+#cancel{
+	font-family: CollectFolkSongs;
+}
+#save{
+	font-family: CollectFolkSongs;
+}
+
+body {
+    background-color: lightblue;
+    font-family: BambooWind;
+	font-weight:;
+
+}
+button{
+	border-radius: 30px;
+	height: 40px;
+	width: 64px;
+}
+
+label{
+	font-weight:normal;
+}
+
+@font-face {
+  font-family: BambooWind;
+  src: url(../css/BambooWind.TTC);
+}
+@font-face {
+  font-family: CollectFolkSongs;
+  src: url(../css/CollectFolkSongs.ttc);
+}
